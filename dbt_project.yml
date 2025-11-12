@@ -1,0 +1,13 @@
+name: 'sales_star_schema_snowflake'
+version: '1.0'
+config-version: 2
+
+
+
+models:
+  sales_star_schema_snowflake:
+    staging:
+      materialized: view
+    marts:
+      materialized: table
+
